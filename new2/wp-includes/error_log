@@ -1,0 +1,10 @@
+[20-Nov-2018 00:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/imagurues/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/imagurues/public_html/wp-includes/template-loader.php on line 28
+[14-Dec-2018 23:49:41 UTC] PHP Fatal error:  Class 'Walker' not found in /home/imagurues/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[19-Dec-2018 02:01:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/imagurues/public_html/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/imagurues/public_html/wp-includes/locale.php on line 10
+[01-Jan-2019 16:39:14 UTC] PHP Fatal error:  Class 'Walker' not found in /home/imagurues/public_html/wp-includes/class-walker-nav-menu.php on line 17

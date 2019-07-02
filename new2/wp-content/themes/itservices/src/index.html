@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Webpage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Imaguru It Services</title>
+    <meta name="description" content="Imaguru IT services" />
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Schema.org markup (Google) -->
+    <meta itemprop="name" content="Imaguru It Services">
+    <meta itemprop="description" content="Imaguru IT services">
+    <meta itemprop="image" content="https://it.imaguru.co/img/summary.jpg">
+    <!-- Twitter Card markup-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Imaguru It Services">
+    <meta name="twitter:description" content="Imaguru IT services">
+    <meta name="twitter:creator" content="">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image" content="https://it.imaguru.co/img/summary.jpg">
+    <meta name="twitter:image:alt" content="Imaguru IT services">
+    <!-- Open Graph markup (Facebook, Pinterest) -->
+    <meta property="og:title" content="Imaguru It Services" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://it.imaguru.co" />
+    <meta property="og:image" content="https://it.imaguru.co/img/summary.jpg" />
+    <meta property="og:description" content="Imaguru IT services" />
+    <meta property="og:site_name" content="Imaguru IT Services" />
+    <!-- Chrome for Android theme color -->
+    <meta name="theme-color" content="#2d58de">
+    <!-- Tile color for Win8 -->
+    <meta name="msapplication-TileColor" content="#2d58de">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PSK">
+    <link rel="icon" sizes="192x192" href="img/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Imaguru IT Services">
+    <link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png">
+    <!-- Tile icon for Win8 (144x144) -->
+    <meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        var html = document.documentElement;
+        if (sessionStorage.fontsLoaded) {
+            html.classList.add("fonts-loaded");
+        } else {
+            var script = document.createElement("script");
+            script.src = "js/fontFaceObserver.js";
+            script.async = true;
+            script.onload = function() {
+                var regular = new FontFaceObserver("Raleway", {
+                    weight: "400"
+                });
+                var bold = new FontFaceObserver("Raleway", {
+                    weight: "bold"
+                });
+                var light = new FontFaceObserver("Raleway", {
+                    weight: "300"
+                });
+                var semiBold = new FontFaceObserver("Raleway", {
+                    weight: "600"
+                });
+                var extraBold = new FontFaceObserver("Raleway", {
+                    weight: "800"
+                });
+                var osRegular = new FontFaceObserver("Open Sans", {
+                    weight: "normal"
+                });
+                var osBold = new FontFaceObserver("Open Sans", {
+                    weight: "bold"
+                });
+                var osLight = new FontFaceObserver("Open Sans", {
+                    weight: "300"
+                });
+                var osSemiBold = new FontFaceObserver("Open Sans", {
+                    weight: "600"
+                });
+                var osExtraBold = new FontFaceObserver("Open Sans", {
+                    weight: "800"
+                });
+
+                Promise.all([
+                        regular.load(),
+                        bold.load(),
+                        light.load(),
+                        semiBold.load(),
+                        extraBold.load(),
+                        osRegular.load(),
+                        osBold.load(),
+                        osLight.load(),
+                        osSemiBold.load(),
+                        osExtraBold.load(),
+                    ])
+                    .then(function() {
+                        html.classList.add("fonts-loaded");
+                        sessionStorage.fontsLoaded = true;
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    })
+            };
+            document.head.appendChild(script);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--header  -->
+        <header class="main-header">
+            <div class="logo">
+                <a href="/" class="logo__link">
+                    <img class="logo__picture" src="img/logo.svg" alt="imaguru logo">
+                    <span class="logo__subtitle">IT SERVICES</span>
+                </a>
+            </div>
+            <!--Menu  -->
+            <button class="menu-icon">
+      <span class="sandwich">
+        <span class="sandwich__topper"></span>
+        <span class="sandwich__bottom"></span>
+        <span class="sandwich__footer"></span>
+      </span>
+      </button>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu-item current-menu-item"><a data-scroll href="#what">What we do</a></li>
+                    <li class="menu-item"><a data-scroll href="#how">How we do</a></li>
+                    <li class="menu-item"><a data-scroll href="#process">Working process</a></li>
+                    <li class="menu-item"><a data-scroll href="#team">Our Team</a></li>
+                    <li class="menu-item"><a data-scroll href="#portfolio">Portfolio</a></li>
+                    <li class="menu-item"><a data-scroll href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="menu__button-wrapper">
+                <button class="btn btn--blue form-btn">Order</button>
+            </div>
+        </header>
+        <section class="what parallax" id="#what">
+            <div class="tabs">
+                <div class="tabcontent" data-id="websites">
+                    <figure class="tab-icon animated fadeInRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.33 187.23"><title>ic_web</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2" data-ignore="true"><g opacity="0.5"><line x1="21.7" y1="152.18" x2="21.7" y2="147.55" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="21.7" y1="137.67" x2="21.7" y2="83.35" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.88 9.88" data-ignore="true"/><line x1="21.7" y1="78.42" x2="21.7" y2="73.78" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="46.41" y1="163.25" x2="46.41" y2="158.62" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="46.41" y1="149.65" x2="46.41" y2="64.45" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.97 8.97" data-ignore="true" /><line x1="46.41" y1="59.97" x2="46.41" y2="55.34" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="72.12" y1="187.23" x2="72.12" y2="182.6" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="72.12" y1="172.82" x2="72.12" y2="40.88" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.77 9.77" data-ignore="true" /><line x1="72.12" y1="35.99" x2="72.12" y2="31.36" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="100.8" y1="159.56" x2="100.8" y2="154.93" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="100.8" y1="146.09" x2="100.8" y2="9.05" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.84 8.84" data-ignore="true" /><line x1="100.8" y1="4.63" x2="100.8" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="124.53" y1="162.33" x2="124.53" y2="157.7" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="124.53" y1="148.85" x2="124.53" y2="11.82" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.84 8.84" data-ignore="true" /><line x1="124.53" y1="7.4" x2="124.53" y2="2.77" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="155.18" y1="142.04" x2="155.18" y2="137.41" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="155.18" y1="127.68" x2="155.18" y2="35.32" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.72 9.72" data-ignore="true" /><line x1="155.18" y1="30.46" x2="155.18" y2="25.82" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/></g><rect x="2" y="35.41" width="171.33" height="100.33" rx="4" ry="4" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><rect x="9.72" y="43.13" width="155.89" height="84.89" rx="0.77" ry="0.77" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><rect x="9.72" y="43.13" width="155.89" height="9.26" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="9.66" y1="110.61" x2="165.66" y2="110.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="9.66" y1="114.61" x2="165.66" y2="114.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="9.66" y1="118.61" x2="165.66" y2="118.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="9.66" y1="122.61" x2="165.66" y2="122.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="9.66" y1="126.61" x2="165.66" y2="126.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><rect x="48.72" y="104.87" width="38.95" height="23.15" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><rect x="87.66" y="104.87" width="38.95" height="23.15" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="66.83" y1="66.28" x2="105.41" y2="66.28" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="3.09"/><line x1="22.07" y1="47.76" x2="29.78" y2="47.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="32.87" y1="47.76" x2="40.59" y2="47.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="43.67" y1="47.76" x2="51.39" y2="47.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="54.48" y1="47.76" x2="62.2" y2="47.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="39.04" y1="83.61" x2="133.2" y2="83.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="43.67" y1="77.77" x2="128.57" y2="77.77" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="49.85" y1="89.44" x2="122.39" y2="89.44" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><circle cx="14.73" cy="47.76" r="1.93" fill="#2d58de" stroke="#fff" stroke-miterlimit="10" stroke-width="1.54"/><rect x="68.37" y="135.74" width="37.04" height="23.15" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><path d="M48.69,158.89h76.4a1.93,1.93,0,0,1,1.93,1.93v4.24H46.76v-4.24A1.93,1.93,0,0,1,48.69,158.89Z" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/></g></g></g></g></svg>
+                    </figure>
+                    <h1 class="animated fadeInRight">Unique and innovative sites & apps</h1>
+                    <p class="animated fadeInRight">We use technologies that meet customers needs</p>
+                </div>
+                <div class="tabcontent" data-id="apps">
+                    <figure class="tab-icon animated fadeInRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.48 187.23"><title>ic_mobile</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><g opacity="0.5"><line x1="1" y1="152.18" x2="1" y2="147.55" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="1" y1="137.67" x2="1" y2="83.35" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.88 9.88" data-ignore="true" /><line x1="1" y1="78.42" x2="1" y2="73.78" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"  data-ignore="true" /><line x1="25.72" y1="163.25" x2="25.72" y2="158.62" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="25.72" y1="149.65" x2="25.72" y2="64.45" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.97 8.97" data-ignore="true" /><line x1="25.72" y1="59.97" x2="25.72" y2="55.34" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="51.43" y1="187.23" x2="51.43" y2="182.6" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="51.43" y1="172.82" x2="51.43" y2="40.88" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.77 9.77" data-ignore="true" /><line x1="51.43" y1="35.99" x2="51.43" y2="31.36" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="80.1" y1="179.61" x2="80.1" y2="174.98" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="80.1" y1="166.02" x2="80.1" y2="9.11" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.97 8.97" data-ignore="true" /><line x1="80.1" y1="4.63" x2="80.1" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="103.83" y1="162.33" x2="103.83" y2="157.7" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="103.83" y1="148.85" x2="103.83" y2="11.82" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.84 8.84" data-ignore="true"/><line x1="103.83" y1="7.4" x2="103.83" y2="2.77" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="134.48" y1="142.04" x2="134.48" y2="137.41" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="134.48" y1="127.68" x2="134.48" y2="35.32" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.72 9.72" data-ignore="true" /><line x1="134.48" y1="30.46" x2="134.48" y2="25.82" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /></g><rect x="21.96" y="13.61" width="90" height="160" rx="4" ry="4" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><rect x="28.89" y="20.83" width="76.15" height="128.79" rx="2" ry="2" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="29.29" y1="130.61" x2="104.65" y2="130.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="39.16" y1="88.28" x2="61.62" y2="88.28" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="3.09"/><line x1="33.24" y1="25.76" x2="40.16" y2="25.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="42.93" y1="25.76" x2="49.86" y2="25.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="92.82" y1="25.76" x2="99.74" y2="25.76" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><line x1="39.16" y1="105.61" x2="93.96" y2="105.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="39.16" y1="99.77" x2="88.57" y2="99.77" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="39.16" y1="111.44" x2="81.38" y2="111.44" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="104.97" y1="30.61" x2="28.97" y2="30.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="104.97" y1="76.61" x2="28.97" y2="76.61" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><circle cx="66.97" cy="162.11" r="7.5" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="2"/><circle cx="39.72" cy="140.11" r="5" fill="#fff" stroke="#2d58de" stroke-miterlimit="10"/><circle cx="57.89" cy="140.11" r="5" fill="#2d58de" stroke="#2d58de" stroke-miterlimit="10"/><circle cx="76.05" cy="140.11" r="5" fill="#fff" stroke="#2d58de" stroke-miterlimit="10"/><circle cx="94.22" cy="140.11" r="5" fill="#fff" stroke="#2d58de" stroke-miterlimit="10"/><polyline points="47.97 76.61 47.97 66.61 55.97 66.61 48.47 57.11 52.97 57.11 47.72 49.86 49.97 49.86 46.47 44.61 42.97 49.86 45.22 49.86 39.97 57.11 44.47 57.11 36.97 66.61 44.97 66.61 44.97 76.61" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><circle cx="91.47" cy="45.11" r="3.75" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="91.47" y1="39.49" x2="91.47" y2="37.61" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="91.47" y1="52.61" x2="91.47" y2="50.74" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="87.49" y1="41.14" x2="86.17" y2="39.81" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="96.77" y1="50.42" x2="95.45" y2="49.09" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="85.84" y1="45.11" x2="83.97" y2="45.11" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="98.97" y1="45.11" x2="97.09" y2="45.11" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="87.49" y1="49.09" x2="86.17" y2="50.42" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="96.77" y1="39.81" x2="95.45" y2="41.14" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><polyline points="50.92 54.29 57.97 54.29 67.13 63.45 70.97 59.61 82.97 59.61 93.47 70.11 97.47 66.11 103.97 66.11" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/><line x1="42.01" y1="54.29" x2="29.97" y2="54.29" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></g></svg>
+                    </figure>
+                    <h1 class="animated fadeInRight">Native iOS & Android apps</h1>
+                    <p class="animated fadeInRight">Whether you are a startup or an established company - we can help you extend your web or enterprise based applications to a mobile platform.
+                    </p>
+                </div>
+                <div class="tabcontent" data-id="identity">
+                    <figure class="tab-icon animated fadeInRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.35 149.08"><title>ic_logo</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><g opacity="0.5"><line x1="13.95" y1="136.5" x2="13.95" y2="131.87" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="13.95" y1="123.39" x2="13.95" y2="42.87" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.48 8.48" data-ignore="true"/><line x1="13.95" y1="38.63" x2="13.95" y2="34" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="42.62" y1="97" x2="42.62" y2="92.37" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true"/><line x1="42.62" y1="82.62" x2="42.62" y2="9.5" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.75 9.75" data-ignore="true" /><line x1="42.62" y1="4.63" x2="42.62" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="66.35" y1="149.08" x2="66.35" y2="144.45" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="66.35" y1="135.88" x2="66.35" y2="54.42" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.57 8.57" data-ignore="true" /><line x1="66.35" y1="50.13" x2="66.35" y2="45.5" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /></g><path d="M65.56,47.1A41,41,0,1,0,83.35,88.65,32.79,32.79,0,0,1,65.56,47.1Z" fill="#fff" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M38.5,35A27.55,27.55,0,0,0,17.07,13.59,22,22,0,0,0,38.5,35Z" fill="#fff" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M21.1,57.22a13.92,13.92,0,0,0,12.8-8.44A11.11,11.11,0,0,0,21.1,57.22Z" fill="#2d58de"/></g></g></g></g></svg>
+                    </figure>
+                    <h1 class="animated fadeInRight">You Will Be Noticeable</h1>
+                    <p class="animated fadeInRight">Integrated branding is essential to the success of your business. From display ads to corporate identity and cutting-edge responsive websites, our team offers unique creative strategies and memorable graphic designs that bring a fresh
+                        approach to all your brand marketing ventures.</p>
+                </div>
+                <div class="tabcontent" data-id="ads">
+                    <figure class="tab-icon animated fadeInRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.39 137"><title>ic_banner</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><g opacity="0.5"><line x1="33.28" y1="102" x2="33.28" y2="97.37" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="33.28" y1="89" x2="33.28" y2="42.97" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.37 8.37" data-ignore="true" /><line x1="33.28" y1="38.78" x2="33.28" y2="34.15" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="58.99" y1="137" x2="58.99" y2="132.37" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="58.99" y1="123.73" x2="58.99" y2="24.4" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.64 8.64" data-ignore="true" /><line x1="58.99" y1="20.08" x2="58.99" y2="15.45" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="87.66" y1="97" x2="87.66" y2="92.37" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="87.66" y1="82.62" x2="87.66" y2="9.5" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.75 9.75" data-ignore="true" /><line x1="87.66" y1="4.63" x2="87.66" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="111.39" y1="117.58" x2="111.39" y2="112.95" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="111.39" y1="104.38" x2="111.39" y2="22.92" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.57 8.57" data-ignore="true" /><line x1="111.39" y1="18.63" x2="111.39" y2="14" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="142.05" y1="101.76" x2="142.05" y2="97.13" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /><line x1="142.05" y1="88.09" x2="142.05" y2="20.29" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.04 9.04" data-ignore="true" /><line x1="142.05" y1="15.77" x2="142.05" y2="11.14" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" data-ignore="true" /></g><rect x="2" y="35.54" width="171.33" height="65.93" rx="2" ry="2" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="78.33" y1="101.46" x2="116" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="85.33" y1="101.46" x2="123" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="93.33" y1="101.46" x2="131" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="101.33" y1="101.46" x2="139" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="109.33" y1="101.46" x2="147" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="117.33" y1="101.46" x2="155" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="125.33" y1="101.46" x2="163" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="133.33" y1="101.46" x2="171" y2="35.51" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="141.33" y1="101.46" x2="173.66" y2="45.5" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="149.33" y1="101.46" x2="173.66" y2="59.5" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="157.33" y1="101.46" x2="173.66" y2="73.5" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/><line x1="165.33" y1="101.46" x2="172.66" y2="88.5" fill="none" stroke="#2d58de" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><rect x="111.08" y="58.54" width="50" height="20" rx="2" ry="2" fill="#2d58de" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/><line x1="17.83" y1="56.92" x2="56.41" y2="56.92" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="3.09"/><line x1="17.66" y1="74.25" x2="80.66" y2="74.25" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="17.66" y1="68.41" x2="74.47" y2="68.41" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/><line x1="17.66" y1="80.08" x2="66.21" y2="80.08" fill="none" stroke="#2d58de" stroke-miterlimit="10" stroke-width="1.54"/></g></g></g></g></svg>
+                    </figure>
+                    <h1 class="animated fadeInRight">Incredibly Creative And Interactive Banners</h1>
+                    <p class="animated fadeInRight">Advertisement is an investment. It increases the opportunity to expose your product and brand which will change the way you do business. Banner ads can do magic when it comes to selling products online. We make fully animated and static
+                        HTML5 banner ads any format that produce click through's and conversions.</p>
+                </div>
+                <div class="tabcontent" data-id="startups">
+                    <figure class="tab-icon animated fadeInRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.35 121.46"><title>ic_startups</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><g opacity="0.5"><line x1="20.41" y1="116.57" x2="20.41" y2="111.94" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="20.41" y1="102.07" x2="20.41" y2="47.76" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.87 9.87"/><line x1="20.41" y1="42.82" x2="20.41" y2="38.19" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="46.12" y1="119.99" x2="46.12" y2="115.36" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="46.12" y1="105.91" x2="46.12" y2="16.12" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.45 9.45"/><line x1="46.12" y1="11.4" x2="46.12" y2="6.77" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="74.92" y1="82.89" x2="74.9" y2="78.26" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="74.86" y1="69.33" x2="74.71" y2="38.08" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8.93 8.93"/><line x1="74.68" y1="33.62" x2="74.66" y2="28.99" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="98.52" y1="115.9" x2="98.52" y2="111.27" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/><line x1="98.52" y1="101.58" x2="98.52" y2="9.48" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="9.69 9.69"/><line x1="98.52" y1="4.63" x2="98.52" fill="none" stroke="#cacaca" stroke-miterlimit="10" stroke-width="2"/></g><path d="M59.19,15.64a33.5,33.5,0,1,0-5.47,51.8l51.43,51.43a2,2,0,0,0,2.83,0h0L115,111.8a2,2,0,0,0,0-2.83h0l-2.83-2.83,3.54-3.54a2,2,0,0,0,0-2.83h0l-4.95-4.95a2,2,0,0,0-2.83,0h0l-3.54,3.54-4.95-4.95,9.9-9.9a2,2,0,0,0,0-2.83h0l-4.95-4.95a2,2,0,0,0-2.83,0h0l-9.9,9.9-4.95-4.95,3.54-3.54a2,2,0,0,0,0-2.83h0l-4.95-4.95a2,2,0,0,0-2.83,0h0L79,72.91,63.62,57.54A33.51,33.51,0,0,0,59.19,15.64Zm-39.6,39.6a22.5,22.5,0,1,1,31.82,0,22.5,22.5,0,0,1-31.82,0Z" fill="#fff" stroke="#2d58de" stroke-miterlimit="10" stroke-width="4"/></g></g></g></g></svg>
+                    </figure>
+                    <h1 class="animated fadeInRight">We wil help you to complete your puzzle</h1>
+                    <p class="animated fadeInRight">We've helped many successful startups grow, and can help guide you each step of the way. Get the digital debut you deserve and attract investors, new customers, and recruits
+                    </p>
+                </div>
+            </div>
+            <ul class="tab-buttons">
+                <li class="tab-button active" data-id="websites">Web</li>
+                <li class="tab-button" data-id="apps">Mobile apps</li>
+                <li class="tab-button" data-id="identity">Identity</li>
+                <li class="tab-button" data-id="ads">Ads</li>
+                <li class="tab-button startups" data-id="startups">Solutions for startups</li>
+            </ul>
+        </section>
+        <section class="how" id="how">
+            <h2>HOW WE DO</h2>
+            <div class="cols">
+                <div class="cols-wrapper">
+                    <div class="cols-item">
+                        <div class="cols-header">
+                            <div class="cols-header-wrapper">
+                                <figure class="cols-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.87 40"><title>ic_manage</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><path d="M32.73,1.09A3.62,3.62,0,0,0,30.08,0H5.16A2.65,2.65,0,0,0,3.69.39a2.23,2.23,0,0,0-.86,1,3,3,0,0,0-.25,1.23v5H1.21A1.14,1.14,0,0,0,.35,8a1.24,1.24,0,0,0-.35.8,1.27,1.27,0,0,0,.16.61,1.06,1.06,0,0,0,.45.45,1.27,1.27,0,0,0,.61.16H2.58v5H1.33a1.28,1.28,0,0,0-.61.16,1.07,1.07,0,0,0-.45.45,1.27,1.27,0,0,0-.16.61,1.17,1.17,0,0,0,.35.86,1.17,1.17,0,0,0,.86.35H2.58v5.08H1.29a1.08,1.08,0,0,0-.45.1,1.57,1.57,0,0,0-.39.25,1,1,0,0,0-.27.39,1.21,1.21,0,0,0,.27,1.35,1.16,1.16,0,0,0,.84.37H2.58v5H1.29A1.31,1.31,0,0,0,1,30a1.16,1.16,0,0,0-.29.12,1.24,1.24,0,0,0-.45.45,1.12,1.12,0,0,0-.12.29,1.27,1.27,0,0,0,0,.31,1.2,1.2,0,0,0,.37.88,1.16,1.16,0,0,0,.84.37H2.58v5a2.2,2.2,0,0,0,.8,1.93A3,3,0,0,0,5.12,40h25a3.73,3.73,0,0,0,3.75-3.71s0,0,0,0V3.75A3.62,3.62,0,0,0,32.73,1.09ZM25.08,37.5h-20v-5H6.37a1.27,1.27,0,0,0,1.25-1.25,1.22,1.22,0,0,0-.1-.47,1.06,1.06,0,0,0-.27-.39,1.59,1.59,0,0,0-.39-.25,1.18,1.18,0,0,0-.49-.1H5.08V25H6.37A1.13,1.13,0,0,0,7,24.82a1.48,1.48,0,0,0,.45-.45,1.17,1.17,0,0,0-.19-1.48,1.24,1.24,0,0,0-.88-.35H5.08V17.46H6.41A1.23,1.23,0,0,0,7,17.3a1.13,1.13,0,0,0,.43-.43,1.24,1.24,0,0,0,.16-.62,1.48,1.48,0,0,0-.08-.47.89.89,0,0,0-.25-.39,1.59,1.59,0,0,0-.39-.25,1.18,1.18,0,0,0-.49-.1H5.08V10H6.29A1.2,1.2,0,0,0,7.5,8.81s0,0,0,0a1.24,1.24,0,0,0-.35-.88,1.14,1.14,0,0,0-.86-.37H5.08v-5h20Zm6.25-1.25a1.27,1.27,0,0,1-1.25,1.25h-2.5V2.5h2.5a1.27,1.27,0,0,1,1.25,1.25Z" fill="#2d58de"/></g></g></g></g></svg>
+                                </figure>
+                                <h3>Management</h3>
+                                <button class="btn btn--sm btn--green form-btn">I need a decision</button>
+                            </div>
+                        </div>
+                        <ul class="cols-list">
+                            <li>Collaboration tools</li>
+                            <li>Task management & time tracking tools</li>
+                            <li>Reports</li>
+                        </ul>
+                    </div>
+                    <div class="cols-item">
+                        <div class="cols-header">
+                            <div class="cols-header-wrapper">
+                                <figure class="cols-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.5 40.02"><title>ic_design</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><path d="M12.44,15.74a2.09,2.09,0,0,1,.06.51,2.53,2.53,0,0,1-2.5,2.5,2.49,2.49,0,0,1-1.76-4.26A2.4,2.4,0,0,1,10,13.75a2.09,2.09,0,0,1,.51.06A3.38,3.38,0,0,1,11,14a2.32,2.32,0,0,1,.43.23,2.53,2.53,0,0,1,.64.64,2.32,2.32,0,0,1,.23.43A3.38,3.38,0,0,1,12.44,15.74Zm11.84-1.27a2.47,2.47,0,0,0-.8-.53,2.53,2.53,0,0,0-2.23.14,2.39,2.39,0,0,0-.92.92,2.53,2.53,0,0,0-.14,2.23,2.38,2.38,0,0,0,1.33,1.33,2.5,2.5,0,0,0,1,.2,2.52,2.52,0,0,0,2.3-3.5A2.47,2.47,0,0,0,24.28,14.47Zm8.22,2.91V38.75a1.15,1.15,0,0,1-.23.7,1.47,1.47,0,0,1-.59.47,1.12,1.12,0,0,1-.74.06,1.09,1.09,0,0,1-.62-.41L25.7,34.41,22,39.49a1.39,1.39,0,0,1-.27.27,1.12,1.12,0,0,1-.35.18A1.36,1.36,0,0,1,21,40a1.12,1.12,0,0,1-1-.51l-3.67-5-3.67,5a1.54,1.54,0,0,1-.45.37,1.18,1.18,0,0,1-.57.14,1.22,1.22,0,0,1-1-.51L6.91,34.38,2.19,39.61a1.2,1.2,0,0,1-.94.39,1.15,1.15,0,0,1-.43-.08,1.47,1.47,0,0,1-.59-.47,1.15,1.15,0,0,1-.23-.7V17.38A17.94,17.94,0,0,1,2.19,8.67,16.75,16.75,0,0,1,8.11,2.32,15.11,15.11,0,0,1,16.25,0a14.47,14.47,0,0,1,2.11.16A15.48,15.48,0,0,1,28.28,5.7,17.56,17.56,0,0,1,32.5,17.38Zm-2.5,0a15.47,15.47,0,0,0-1.86-7.46,14.33,14.33,0,0,0-5-5.43,12.86,12.86,0,0,0-13.75,0,14.32,14.32,0,0,0-5,5.43A15.46,15.46,0,0,0,2.5,17.38V35.51l3.59-4a1.16,1.16,0,0,1,.9-.39H7.3a.62.62,0,0,1,.21.08l.18.12.18.14a.51.51,0,0,1,.14.16l3.59,5,3.71-5a1.22,1.22,0,0,1,1-.51,1.12,1.12,0,0,1,1,.51l3.63,5,3.67-5A1.12,1.12,0,0,1,25,31.3a1.1,1.1,0,0,1,.53-.14,1.12,1.12,0,0,1,1,.43L30,35.47Z" fill="#2d58de"/></g></g></g></g></svg>
+
+                                </figure>
+                                <h3>Designing</h3>
+                                <button class="btn btn--sm btn--green form-btn">I need a design</button>
+                            </div>
+                        </div>
+                        <ul class="cols-list">
+                            <li>Analysis & research</li>
+                            <li>User Interface</li>
+                            <li>Web/mobile</li>
+                            <li>Adaptive & pixelperfet</li>
+                        </ul>
+                    </div>
+                    <div class="cols-item">
+                        <div class="cols-header">
+                            <div class="cols-header-wrapper">
+                                <figure class="cols-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.95 40.01"><title>ic_design</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1-2"><path d="M39.13,17.9,35,13.76a7.28,7.28,0,0,0,2.89-1.82,6.91,6.91,0,0,0,1-1.35A6.13,6.13,0,0,0,39.54,9a7.49,7.49,0,0,0,.21-1.78,6.74,6.74,0,0,0-.55-2.66,6.91,6.91,0,0,0-1.46-2.21A7,7,0,0,0,35.56.87,6.7,6.7,0,0,0,32.88.32a6.6,6.6,0,0,0-4.06,1.35,6.76,6.76,0,0,0-2.46,3.46L22.1.83a3.18,3.18,0,0,0-1-.61,3.09,3.09,0,0,0-2.27,0,3.16,3.16,0,0,0-1,.61L12.06,6.69a1.1,1.1,0,0,0-.23,1.45,1.15,1.15,0,0,0,1.33.66,4.46,4.46,0,0,1,.9-.12A4.62,4.62,0,0,1,16,9.07a4.49,4.49,0,0,1,1.5,1.07,5.38,5.38,0,0,1,1,1.58,5,5,0,0,1,.37,1.91,5,5,0,0,1-1.37,3.57,4.46,4.46,0,0,1-3.4,1.46A4.77,4.77,0,0,1,11.57,18a5,5,0,0,1-2.48-4.36v-.41a2.62,2.62,0,0,1,.1-.49,1.13,1.13,0,0,0-.1-.74,1.36,1.36,0,0,0-.55-.57,1.1,1.1,0,0,0-.76-.12,1.29,1.29,0,0,0-.68.35L.85,17.9a3,3,0,0,0,0,4.18l17,17.07a1.59,1.59,0,0,0,.23.2l.23.18a1,1,0,0,0,.25.16l.25.12.25.1.29.06h.29L20,40a3,3,0,0,0,2.11-.86l17-17.07a3,3,0,0,0,0-4.18Zm-1.64,2.23a.5.5,0,0,1-.12.2l-17,17.07a.47.47,0,0,1-.66,0l0,0-17-17.07a.4.4,0,0,1,0-.66l4.22-4.22a6.81,6.81,0,0,0,.29,1,6,6,0,0,0,.43.88,9.56,9.56,0,0,0,.55.84,7.17,7.17,0,0,0,.63.76,5.61,5.61,0,0,0,.72.64q.39.29.8.55a8.73,8.73,0,0,0,.86.47,5.68,5.68,0,0,0,.94.35,8.24,8.24,0,0,0,1,.21,6.58,6.58,0,0,0,1,.08,7.23,7.23,0,0,0,3.73-1A6.65,6.65,0,0,0,19.29,19a8.46,8.46,0,0,0,1.11-1.52,7.33,7.33,0,0,0,.72-1.8,7.89,7.89,0,0,0,.25-2A7.53,7.53,0,0,0,19.81,9a6.76,6.76,0,0,0-4-2.6L19.6,2.62a.61.61,0,0,1,.16-.12l.14-.06a.19.19,0,0,1,.12,0l.14.06a.65.65,0,0,1,.16.12l6.13,6.13A1.12,1.12,0,0,0,27.88,9a1.36,1.36,0,0,0,.41-.31,1.18,1.18,0,0,0,.25-.45,1.07,1.07,0,0,0,0-.49V7.53a1.65,1.65,0,0,1,0-.31,4.23,4.23,0,0,1,.35-1.68,4.35,4.35,0,1,1,4.07,6h-.54a1.11,1.11,0,0,0-1.25.68,1.14,1.14,0,0,0,.23,1.43l6,6a.5.5,0,0,1,.12.21A.43.43,0,0,1,37.49,20.13Z" fill="#2d58de"/></g></g></g></g></svg>
+                                </figure>
+                                <h3>Development</h3>
+                                <button class="btn btn--sm btn--green form-btn">I need a website/app</button>
+                            </div>
+                        </div>
+                        <ul class="cols-list">
+                            <li>Valid HTML/CSS</li>
+                            <li>Javascript (vanilla or frameworks)</li>
+                            <li>Automation tools</li>
+                            <li>Optimization tools</li>
+                            <li>Version Control System</li>
+                            <li>PHP or Node.js on server</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="process" id="process">
+            <h2>Working process</h2>
+            <ol class="process-list">
+                <li class="active">Kickoff meeeting
+                    <span class="details">The first step is to discover more about you, your company's vision, and to build a strong relationship. This is where we will create your brand, create a custom strategy, and set project goals.</span>
+                </li>
+                <li>Ideation<span class="details">We use design thinking methodology that helps to find new solutions through creative approach, teamwork and orientation to the user. After this stage, we have a unique design concept for your project.</span></li>
+                <li>Prototyping<span class="details">At this stage we create interactive prototype of a product. Prototype helps to easily understand what appeared to be a good idea on paper, but in fact it breaks usability. We follow these moments and offer better solutions.</span></li>
+                <li>Design<span class="details">When the target audience is identified and all the problems are solved on the prototype, we proceed to design. We will analyze the products of your competitors and find what users like and don’t like and will use this info to make your product the best on the market.</span></li>
+                <li>Programming<span class="details">At this stage product design revives. Our developers use cutting-edge technologies to release high quality and effective product.</span></li>
+                <li>Testing<span class="details">Here review and testing takes place, which ensures the quality of your project.</span></li>
+                <li><span class="process-wrapper">Release, promotion, support</span><span class="details">We're here when you need us, long after your site goes live</span></li>
+            </ol>
+        </section>
+        <section class="our-team" id="team">
+            <h2>Guru Team</h2>
+            <div class="our-team-interactive container">
+                //= templates/area.html
+            </div>
+
+            <div class="about-team">
+                <div class="container">
+
+                    <div class="about-item" name="artem">
+                        <div class="info">
+                            <h3>Артем</h3>
+                            <p>Наш Progect Manager.
+                                <br> Решит все вопросы, узнает все тонкости, предложит лучшее решение, раздаст вифи</p>
+                        </div>
+
+                        <div class="contact-us">
+                            <div class="btn btn--white contact-artem">Contacts</div>
+                            <div class="contacts">
+                                <a href="tel:+375295555555">+375 29 555-55-55</a>
+                                <a href="mailto:ar@imaguru.by">ar@imaguru.by</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="about-item" name="sasha">
+                        <div class="info">
+                            <h3>Саша</h3>
+                            <p>Наш Head Designer 80lvl+, работает 28/7. Очень любит микровзаимодействия, чем толкает мишу в php-разработку</p>
+                        </div>
+                        <!-- <a href="">Связаться</a> -->
+                    </div>
+
+                    <div class="about-item" name="mike">
+                        <div class="info">
+                            <h3>Миша</h3>
+                            <p>Все больше и больше любит PHP. Спасибо Саше!</p>
+                        </div>
+                        <!-- <a href="">Связаться</a> -->
+                    </div>
+
+                    <div class="about-item" name="jane">
+                        <div class="info">
+                            <h3>Яна</h3>
+                            <p>Правая рука дизайнера.</p>
+                        </div>
+                        <!-- <a href="">Связаться</a> -->
+                    </div>
+
+                    <div class="about-item" name="serg">
+                        <div class="info">
+                            <h3>Сергей</h3>
+                            <p>Лучший в мире велосипедист, который знает PHP как свои 7 пальцев</p>
+                        </div>
+                        <!-- <a href="">Связаться</a> -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <ul class="portfolio__list">
+                <li class="portfolio__item parallax">
+                    <div class="portfolio__text">
+                        <img src="img/logo.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam amet adipisci a, architecto inventore veniam deleniti! Commodi sapiente dicta odit veniam, ullam quidem odio, repudiandae velit, ad cumque deleniti ab!</p>
+                    </div>
+                    <figure class="portfolio__img">
+                        <img src="img/portfolio_img.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="portfolio__item parallax" style="background: linear-gradient(rgba(234, 50, 31, 0.95), rgba(234, 50, 31, 0.95)), url('img/portfolio_img.jpg');">
+                    <div class="portfolio__text">
+                        <img src="img/st_logo.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam amet adipisci a, architecto inventore veniam deleniti! Commodi sapiente dicta odit veniam, ullam quidem odio, repudiandae velit, ad cumque deleniti ab!</p>
+                    </div>
+                    <figure class="portfolio__img">
+                        <img src="img/portfolio_img.jpg" alt="">
+                    </figure>
+                </li>
+
+                <li class="portfolio__item parallax" style="background: linear-gradient(rgba(16, 8, 49, 0.95), rgba(16, 8, 49, 0.95)), url('img/portfolio_img.jpg');">
+                    <div class="portfolio__text">
+                        <img src="img/fama_logo.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam amet adipisci a, architecto inventore veniam deleniti! Commodi sapiente dicta odit veniam, ullam quidem odio, repudiandae velit, ad cumque deleniti ab!</p>
+                    </div>
+                    <figure class="portfolio__img">
+                        <img src="img/portfolio_img.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section class="contacts" id="contacts">
+            <h2>Still have questions?</h2>
+            <p>Fill in the form and we will quickly contact you</p>
+            <div class="face">
+                <div class="face__eyes">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.7 76.76"><title>form_face</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path id="smile" d="M2,74.76a98.22,98.22,0,0,1,78.7-.61" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M32.35,12.93c-1.63-5-5-8.53-8.9-9.49a8.42,8.42,0,0,0-8,2.27c-2.41,2.36-3.95,6.24-4.73,10.1-1.8,8.85.38,18.75,5.87,22.16a8.92,8.92,0,0,0,9.23,0C33.37,33.73,35.23,21.71,32.35,12.93Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M20.42,16.75l-.6-.05-.43,2.75a1,1,0,0,0,1.89.1c.49-.93.07-2.36-.7-2.36" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M64.52,11.74c-1.63-5-5-8.53-8.9-9.49a8.42,8.42,0,0,0-8,2.27c-2.41,2.36-3.95,6.24-4.73,10.1-1.8,8.85.38,18.75,5.87,22.16a8.92,8.92,0,0,0,9.23,0C65.54,32.54,67.4,20.52,64.52,11.74Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M52.59,15.56l-.6-.05-.43,2.75a1,1,0,0,0,1.89.1c.49-.93.07-2.36-.7-2.36" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></g></g></svg>
+                </div>
+                <button id="contacts-btn" class="btn btn--white form-btn">Hire us</button>
+                <div class="face__legs">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.87 49.76"><title>form_legs</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path d="M104.28,47.57c6.4-1.21,29.91-15.65,18.53-37.5-11.95-22.94-28,8.79-28.83,24.28a21.76,21.76,0,0,0,1,8A8.55,8.55,0,0,0,97,45.81a7.57,7.57,0,0,0,1.17.89A8.61,8.61,0,0,0,104.28,47.57Z" fill="#4665bb" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><line x1="96.94" y1="45.76" x2="76.94" y2="15.76" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M23.59,47.57c-6.4-1.21-29.91-15.65-18.53-37.5C17-12.88,33.06,18.85,33.9,34.35a21.76,21.76,0,0,1-1,8,8.55,8.55,0,0,1-2.05,3.42,7.57,7.57,0,0,1-1.17.89A8.61,8.61,0,0,1,23.59,47.57Z" fill="#4665bb" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><line x1="30.94" y1="45.76" x2="50.94" y2="15.76" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></g></g></svg>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="footer__row">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-item">
+                        <h4>Imaguru in Minsk</h4>
+                        <p>Belarus, Minsk, Fabritciusa st.,4 </p>
+                        <p><span>+37529 1234567</span><a href="mailto:info@imaguru.by">info@imaguru.by</a></p>
+                    </div>
+                    <div class="footer__contacts-item">
+                        <h4>Imaguru in Madrid</h4>
+                        <p>Spain, Madrid, Fabritciusa st.,4 </p>
+                        <p><span>+37529 1234567</span><a href="mailto:info@imaguru.by">info@imaguru.by</a></p>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <h4>Follow us on</h4>
+                    <div class="footer__btn-wrap">
+                        <a href="#" class="btn btn--social btn--facebook" target="_blank">Facebook</a>
+                        <a href="#" class="btn btn--social btn--vk" target="_blank">VK</a>
+                        <a href="#" class="btn btn--social btn--insta" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Made by Imaguru team. All rights reserved &copy;</p>
+            </div>
+        </footer>
+        <form class="form animated fadeIn">
+            <h2>Let’s Connect</h2>
+            <div class="form__group">
+                <input type="text" name="name" id="name" placeholder="Hi, my name is..." required>
+                <input type="text" name="company" id="company" placeholder="From company..." required>
+            </div>
+            <div class="form__group form__group--full">
+                <input type="text" name="what" id="what" placeholder="I need a ..." required>
+            </div>
+            <div class="form__group">
+                <input type="email" name="email" id="email" placeholder="My email is ..." required>
+                <input type="tel" name="phone" id="phone" placeholder="My phone number is ...">
+            </div>
+            <button type="submit" class="btn btn--sm btn--white">Submit</button>
+            <div class="form__close"></div>
+        </form>
+        <div class="form-answer animated fadeIn">
+            <h2></h2>
+            <div class="form__close"></div>
+        </div>
+    </div>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/vivus.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page5983556.html
+
+RewriteEngine On
+
+RewriteRule ^index$ page5983556.html [NC]
+RewriteRule ^index/$ page5983556.html [NC]
+
+RewriteRule ^camp$ page5997506.html [NC]
+RewriteRule ^camp/$ page5997506.html [NC]
+
+RewriteRule ^retreat$ page5998854.html [NC]
+RewriteRule ^retreat/$ page5998854.html [NC]
+
+RewriteRule ^routine$ page5999051.html [NC]
+RewriteRule ^routine/$ page5999051.html [NC]
+
+RewriteRule ^apply$ page5999157.html [NC]
+RewriteRule ^apply/$ page5999157.html [NC]
+
+RewriteRule ^contacts$ page5999234.html [NC]
+RewriteRule ^contacts/$ page5999234.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=301,L]
+

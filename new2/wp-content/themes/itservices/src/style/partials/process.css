@@ -1,0 +1,301 @@
+.process {
+  background-color: var(--color-brand-primary);
+  padding: 60px calc(150 / 1360 * 100%) 120px;
+  color: var(--color-white);
+
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 90px;
+    color: var(--color-white);
+  }
+
+  & ol {
+    position: relative;
+    /*height: 2px; !!!!!!!!!!!!!!!!!!!!!!!*/
+    /*background: var(--color-white);*/
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    box-sizing: border-box;
+    width: 95%;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: #fff;
+    }
+
+    & li {
+      padding: 25px 10px;
+      font-family: var(--font-family-os);
+      opacity: 1;
+      font-size: 1rem;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+      overflow: visible;
+      font-weight: 600;
+      z-index: 2;
+
+      & .process-wrapper {
+        transform: translate(95px, -55px);
+        display: inline-block;
+        max-width: 100px;
+      }
+
+      &:first-child {
+        padding-left: 0;
+
+        & .details {
+          left: 0;
+        }
+      }
+
+      &:last-child {
+        padding: 25px 0;
+        text-align: right;
+
+        &::before {
+          right: 0;
+          width: 40px;
+          height: 40px;
+          top: -20px;
+          background-color: var(--color-white);
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26.47 22.35'%3E%3Ctitle%3Etick%3C/title%3E%3Cg id='Слой_2' data-name='Слой 2'%3E%3Cg id='Layer_1' data-name='Layer 1'%3E%3Cpath d='M9.34,13,1.54,9.72a.39.39,0,0,0-.46.59L9.24,21.19a.39.39,0,0,0,.62,0L25.38,1.63a.39.39,0,0,0-.54-.55L9.73,12.91A.39.39,0,0,1,9.34,13Z' fill='none' stroke='%2347ae4c' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-size: 90%;
+          background-position: center;
+        }
+
+        & .details {
+          left: initial;
+          right: -95px;
+        }
+      }
+
+      &::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        border: 1px solid var(--color-white);
+        background-color: var(--color-brand-primary);
+        position: absolute;
+        top: -10px;
+        box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        transition: all 0.25s ease-in;
+      }
+
+      &.active {
+        &::before {
+          background-color: var(--color-white);
+        }
+
+        & .details {
+          opacity: 0.7;
+        }
+      }
+
+    }
+
+/*    &:after {
+      content:'';
+      display: table;
+      clear: both;
+    }*/
+
+    & .details {
+      position: absolute;
+      top: 60px;
+      left: 10px;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      font-family: var(--font-family-os);
+      font-size: 1rem;
+      font-weight: 300;
+      min-width: 300px;
+      pointer-events: none;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .process {
+    padding-bottom: 150px;
+
+    &::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    & ol {
+      width: auto;
+      background-color: transparent;
+      /*min-height: 900px;*/
+      display: block;
+      float: right;
+      margin: 0;
+      /*margin-right: 10%;*/
+      border-right: 2px solid var(--color-white);
+      width: 600px;
+      max-width: 100%;
+
+      &:after {
+        display: none;
+      }
+
+      & li {
+        display: block;
+        text-align: right;
+        padding-right: 25px;
+        height: 150px;
+        padding-top: 0;
+
+        &.active {
+          height: 150px;
+        }
+
+        & .process-wrapper {
+          transform: translate(0);
+          max-width: none;
+        }
+
+        &::before {
+          left: initial;
+          right: -11px;
+          top: 0;
+        }
+
+        &:first-child {
+          & .details {
+          }
+        }
+
+        &:last-child {
+          padding: 10px 45px 25px;
+          min-height: 0;
+          height: auto;
+
+          &::before {
+            left: initial;
+            right: -22px;
+            top: 0;
+          }
+
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 4px;
+            top: 42px;
+            height: 100%;
+            background: linear-gradient(to bottom, #7faaf1, #6297ee 2px, #1d6ae7 2px, var(--color-brand-primary) 3px);
+            right: -3px;
+          }
+
+          & .details {
+            right: 45px;
+            top: 60px;
+          }
+
+        }
+      }
+
+      & .details {
+        top: 30px;
+        max-width: 100%;
+        left: initial;
+        right: 25px;
+        min-width: initial;
+        text-align: right;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .process {
+    & ol {
+      & .details {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .process {
+
+    & h2 {
+      margin-bottom: 30px;
+    }
+
+    & ol {
+      /*min-height: 1540px;*/
+
+      & li {
+        height: 135px;
+
+        &.active {
+          height: 270px;
+        }
+
+
+        &:first-child {
+          & .details {
+          }
+        }
+
+        &:last-child {
+          & .details {
+          }
+        }
+      }
+
+      & .details {
+      }
+    }
+  }
+}
+
+/*@media screen and (max-width: 320px) {
+  .process {
+
+    & ol {
+      min-height: 1840px;
+      margin-right: 0;
+
+      & li {
+        min-height: 300px;
+
+        &:first-child {
+          & .details {
+            width: 250px;
+          }
+        }
+
+        &:last-child {
+          & .details {
+            width: 250px;
+          }
+        }
+      }
+
+      & .details {
+        width: 220px;
+        left: 30px;
+      }
+    }
+  }
+}
+*/

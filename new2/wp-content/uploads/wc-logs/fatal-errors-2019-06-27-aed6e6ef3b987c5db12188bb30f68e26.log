@@ -1,0 +1,96 @@
+2019-06-27T00:00:24+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=370#!trpen#Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php on line 460#!trpst#/trp-gettext#!trpen#
+
+2019-06-27T01:53:32+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T01:53:43+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T01:53:44+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T01:53:47+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T01:53:48+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T04:39:43+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php en la línea 460
+
+2019-06-27T17:07:12+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=370#!trpen#Uncaught Error: Call to undefined function tribe_is_recurring_event() in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php:460
+Stack trace:
+#0 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/new2/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/new2/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/new2/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/new2/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown in /home/imagurues/public_html/new2/wp-content/themes/imaguru.by/functions.php on line 460#!trpst#/trp-gettext#!trpen#
+

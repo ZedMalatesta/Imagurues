@@ -1,0 +1,142 @@
+.how {
+  padding: 30px calc(150 / 1360 * 100%) 60px;
+  background: linear-gradient(to bottom, var(--color-white) 40%, var(--color-brand-primary) 0%);
+
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 60px;
+  }
+}
+
+.cols {
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item {
+    flex-basis: calc(100% / 3);
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  &-icon {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+    & svg {
+      max-width: 40px;
+      max-height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &-header {
+    overflow: hidden;
+    max-height: 115px;
+    margin-bottom: 50px;
+
+    & h3 {
+      font-size: 1.875rem;
+      text-align: center;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    &:hover {
+      & .cols-header-wrapper {
+        /*transform-origin: top;*/
+        /*transform: translateY(-60px);*/
+      }
+    }
+  }
+
+  &-header-wrapper {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  &-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 20px;
+
+    & li {
+      padding: 20px 10px;
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: var(--font-family-raleway);
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .how {
+
+    padding: 30px 2% 60px;
+  }
+
+  .cols-header {
+    & .btn {
+      font-size: 1rem;
+    }
+  }
+
+  .cols-header {
+    max-height: none;
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .how {
+    background: #f8f8f8;
+    padding-bottom: 0;
+
+    & h2 {
+    }
+
+  }
+  .cols-wrapper {
+    flex-direction: column;
+  }
+
+  .cols-header {
+    margin-bottom: 25px;
+  }
+
+  .cols-item {
+    margin-bottom: 0;
+    padding: 30px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    &:nth-child(2n) {
+      background-color: #fff;
+    }
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 60px;
+    }
+  }
+
+  .cols-list {
+    color: var(--color-brand-primary);
+
+    & li {
+      padding: 10px;
+    }
+  }
+}

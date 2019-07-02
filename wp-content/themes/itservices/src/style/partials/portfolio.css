@@ -1,0 +1,94 @@
+.portfolio {
+  padding-top: 40px;
+
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 60px 8.08% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: 0 0;
+    background-size: 120%;
+    overflow: hidden;
+
+    &:nth-child(2n + 2) {
+      & .portfolio__img {
+        order: -1;
+
+        & img {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  &__img {
+    padding: 0;
+    margin: 0;
+    flex: 0 1 60%;
+
+    & img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      box-shadow: 0 15px 12px rgba(0,0,0,0.22);
+    }
+  }
+
+  &__text {
+    flex: 0 1 40%;
+
+    & svg {
+      display: block;
+      width: 100%;
+      max-width: 250px;
+      max-height: 80px;
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+
+    & p {
+      font-size: 1.5rem;
+      line-height: 1.3;
+      font-weight: 400;
+      color: var(--color-white);
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    & h2 {
+      margin-bottom: 30px;
+    }
+
+    &__item {
+      display: block;
+      padding-top: 30px;
+    }
+
+    &__text {
+      & p {
+        font-size: 1rem;
+      }
+
+      & svg {
+        max-height: 50px;
+        max-width: 145px;
+      }
+    }
+  }
+}

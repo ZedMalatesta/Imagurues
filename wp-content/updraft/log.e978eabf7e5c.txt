@@ -1,0 +1,181 @@
+0000.001 (0) Opened log file at time: Mon, 11 Feb 2019 10:00:58 +0000 on http://imaguru.es
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 7.2.0 (apache2handler, Windows NT DESKTOP-BTS0FLJ 10.0 build 17134 (Windows 10) i586) MySQL: 5.6.38 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 54.8M | 8M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 33224.5 MB
+0000.012 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.014 (0) Semaphore (d, imaguruesoptions) being initialised
+0000.016 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (d) time to 2019-02-11 10:00:58
+0000.019 (0) Semaphore lock (d) complete
+0000.022 (0) Backup run: resumption=0, nonce=e978eabf7e5c, file_nonce=e978eabf7e5c begun at=1549879258 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1549879558) in case this run gets aborted
+0000.036 (0) This backup run is not intended for files - skipping
+0000.049 (0) Beginning creation of database dump (WordPress DB)
+0000.092 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0002.907 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `imaguruesoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREA (truncated - 1227 bytes total)
+0002.921 (0) Binary mysqldump: error (code: 2)
+0002.939 (0) Table imaguruesoptions: Total expected rows (approximate): 500
+0003.044 (0) Table imaguruesoptions: Total rows added: 496 in 0.10 seconds
+0003.046 (0) Table imaguruesoptions: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesoptions.table.gz - 259.1 KB)
+0003.052 (0) Table imaguruesusers: Total expected rows (approximate): 11
+0003.059 (0) Table imaguruesusers: Total rows added: 11 in 0.01 seconds
+0003.060 (0) Table imaguruesusers: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesusers.table.gz - 1.3 KB)
+0003.064 (0) Table imaguruesusermeta: Total expected rows (approximate): 522
+0003.076 (0) Table imaguruesusermeta: Total rows added: 522 in 0.01 seconds
+0003.078 (0) Table imaguruesusermeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesusermeta.table.gz - 8.9 KB)
+0003.082 (0) Table imaguruescommentmeta: Total expected rows (approximate): 0
+0003.087 (0) Table imaguruescommentmeta: Total rows added: 0 in 0.00 seconds
+0003.089 (0) Table imaguruescommentmeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruescommentmeta.table.gz - 0.4 KB)
+0003.093 (0) Table imaguruescomments: Total expected rows (approximate): 12
+0003.099 (0) Table imaguruescomments: Total rows added: 12 in 0.01 seconds
+0003.100 (0) Table imaguruescomments: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruescomments.table.gz - 1.1 KB)
+0003.104 (0) Table imagurueslinks: Total expected rows (approximate): 0
+0003.110 (0) Table imagurueslinks: Total rows added: 0 in 0.00 seconds
+0003.111 (0) Table imagurueslinks: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueslinks.table.gz - 0.4 KB)
+0003.115 (0) Table imaguruespostmeta: Total expected rows (approximate): 6551
+0003.253 (0) Table imaguruespostmeta: Total rows added: 6551 in 0.14 seconds
+0003.254 (0) Table imaguruespostmeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespostmeta.table.gz - 120.9 KB)
+0003.259 (0) Table imaguruesposts: Total expected rows (approximate): 469
+0003.328 (0) Table imaguruesposts: Total rows added: 469 in 0.07 seconds
+0003.330 (0) Table imaguruesposts: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesposts.table.gz - 101.8 KB)
+0003.335 (0) Table imaguruesterm_relationships: Total expected rows (approximate): 171
+0003.341 (0) Table imaguruesterm_relationships: Total rows added: 171 in 0.01 seconds
+0003.343 (0) Table imaguruesterm_relationships: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterm_relationships.table.gz - 0.9 KB)
+0003.347 (0) Table imaguruesterm_taxonomy: Total expected rows (approximate): 122
+0003.355 (0) Table imaguruesterm_taxonomy: Total rows added: 122 in 0.01 seconds
+0003.358 (0) Table imaguruesterm_taxonomy: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterm_taxonomy.table.gz - 1.3 KB)
+0003.367 (0) Table imaguruestermmeta: Total expected rows (approximate): 80
+0003.380 (0) Table imaguruestermmeta: Total rows added: 80 in 0.01 seconds
+0003.383 (0) Table imaguruestermmeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestermmeta.table.gz - 1 KB)
+0003.392 (0) Table imaguruesterms: Total expected rows (approximate): 122
+0003.406 (0) Table imaguruesterms: Total rows added: 122 in 0.01 seconds
+0003.409 (0) Table imaguruesterms: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterms.table.gz - 2.3 KB)
+0003.419 (0) Table imagurueswoocommerce_order_itemmeta: Total expected rows (approximate): 63
+0003.431 (0) Table imagurueswoocommerce_order_itemmeta: Total rows added: 63 in 0.01 seconds
+0003.434 (0) Table imagurueswoocommerce_order_itemmeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_order_itemmeta.table.gz - 0.8 KB)
+0003.444 (0) Table imagurueswoocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0003.454 (0) Table imagurueswoocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0003.457 (0) Table imagurueswoocommerce_payment_tokenmeta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0003.467 (0) Table imaguruesyoast_seo_links: Total expected rows (approximate): 97
+0003.481 (0) Table imaguruesyoast_seo_links: Total rows added: 97 in 0.01 seconds
+0003.484 (0) Table imaguruesyoast_seo_links: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesyoast_seo_links.table.gz - 2.4 KB)
+0003.493 (0) Table imaguruesyoast_seo_meta: Total expected rows (approximate): 217
+0003.508 (0) Table imaguruesyoast_seo_meta: Total rows added: 217 in 0.01 seconds
+0003.511 (0) Table imaguruesyoast_seo_meta: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesyoast_seo_meta.table.gz - 0.9 KB)
+0003.521 (0) Table imaguruesdb7_forms: Total expected rows (approximate): 319
+0003.549 (0) Table imaguruesdb7_forms: Total rows added: 319 in 0.03 seconds
+0003.553 (0) Table imaguruesdb7_forms: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesdb7_forms.table.gz - 17.4 KB)
+0003.563 (0) Table imaguruespodsrel: Total expected rows (approximate): 4
+0003.576 (0) Table imaguruespodsrel: Total rows added: 4 in 0.01 seconds
+0003.580 (0) Table imaguruespodsrel: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespodsrel.table.gz - 0.5 KB)
+0003.594 (0) Table imaguruespum_subscribers: Total expected rows (approximate): 0
+0003.600 (0) Table imaguruespum_subscribers: Total rows added: 0 in 0.01 seconds
+0003.602 (0) Table imaguruespum_subscribers: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespum_subscribers.table.gz - 0.4 KB)
+0003.607 (0) Table imaguruestrp_dictionary_en_us_es_es: Total expected rows (approximate): 309
+0003.617 (0) Table imaguruestrp_dictionary_en_us_es_es: Total rows added: 309 in 0.01 seconds
+0003.619 (0) Table imaguruestrp_dictionary_en_us_es_es: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_dictionary_en_us_es_es.table.gz - 9.5 KB)
+0003.624 (0) Table imaguruestrp_gettext_en_us: Total expected rows (approximate): 2884
+0003.684 (0) Table imaguruestrp_gettext_en_us: Total rows added: 2884 in 0.06 seconds
+0003.686 (0) Table imaguruestrp_gettext_en_us: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_gettext_en_us.table.gz - 41.8 KB)
+0003.690 (0) Table imaguruestrp_gettext_es_es: Total expected rows (approximate): 1997
+0003.735 (0) Table imaguruestrp_gettext_es_es: Total rows added: 1997 in 0.04 seconds
+0003.737 (0) Table imaguruestrp_gettext_es_es: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_gettext_es_es.table.gz - 42.5 KB)
+0003.742 (0) Table imagurueswc_download_log: Total expected rows (approximate): 0
+0003.747 (0) Table imagurueswc_download_log: Total rows added: 0 in 0.00 seconds
+0003.748 (0) Table imagurueswc_download_log: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswc_download_log.table.gz - 0.4 KB)
+0003.753 (0) Table imagurueswc_webhooks: Total expected rows (approximate): 0
+0003.758 (0) Table imagurueswc_webhooks: Total rows added: 0 in 0.00 seconds
+0003.759 (0) Table imagurueswc_webhooks: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswc_webhooks.table.gz - 0.5 KB)
+0003.764 (0) Table imagurueswoocommerce_api_keys: Total expected rows (approximate): 0
+0003.769 (0) Table imagurueswoocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0003.770 (0) Table imagurueswoocommerce_api_keys: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_api_keys.table.gz - 0.4 KB)
+0003.774 (0) Table imagurueswoocommerce_attribute_taxonomies: Total expected rows (approximate): 3
+0003.780 (0) Table imagurueswoocommerce_attribute_taxonomies: Total rows added: 3 in 0.00 seconds
+0003.781 (0) Table imagurueswoocommerce_attribute_taxonomies: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0003.786 (0) Table imagurueswoocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0003.791 (0) Table imagurueswoocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0003.792 (0) Table imagurueswoocommerce_downloadable_product_permissions: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0003.797 (0) Table imagurueswoocommerce_log: Total expected rows (approximate): 0
+0003.802 (0) Table imagurueswoocommerce_log: Total rows added: 0 in 0.00 seconds
+0003.803 (0) Table imagurueswoocommerce_log: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_log.table.gz - 0.4 KB)
+0003.807 (0) Table imagurueswoocommerce_order_items: Total expected rows (approximate): 7
+0003.813 (0) Table imagurueswoocommerce_order_items: Total rows added: 7 in 0.00 seconds
+0003.814 (0) Table imagurueswoocommerce_order_items: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_order_items.table.gz - 0.5 KB)
+0003.819 (0) Table imagurueswoocommerce_payment_tokens: Total expected rows (approximate): 0
+0003.823 (0) Table imagurueswoocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0003.825 (0) Table imagurueswoocommerce_payment_tokens: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_payment_tokens.table.gz - 0.4 KB)
+0003.829 (0) Table imagurueswoocommerce_sessions: Total expected rows (approximate): 1
+0003.834 (0) Table imagurueswoocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0003.836 (0) Table imagurueswoocommerce_sessions: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_sessions.table.gz - 0.8 KB)
+0003.840 (0) Table imagurueswoocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0003.845 (0) Table imagurueswoocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0003.846 (0) Table imagurueswoocommerce_shipping_zone_locations: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0003.851 (0) Table imagurueswoocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0003.856 (0) Table imagurueswoocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0003.857 (0) Table imagurueswoocommerce_shipping_zone_methods: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0003.862 (0) Table imagurueswoocommerce_shipping_zones: Total expected rows (approximate): 0
+0003.866 (0) Table imagurueswoocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0003.868 (0) Table imagurueswoocommerce_shipping_zones: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zones.table.gz - 0.3 KB)
+0003.872 (0) Table imagurueswoocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0003.877 (0) Table imagurueswoocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0003.878 (0) Table imagurueswoocommerce_tax_rate_locations: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0003.883 (0) Table imagurueswoocommerce_tax_rates: Total expected rows (approximate): 0
+0003.888 (0) Table imagurueswoocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0003.889 (0) Table imagurueswoocommerce_tax_rates: finishing file (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_tax_rates.table.gz - 0.4 KB)
+0003.893 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesoptions.table.gz (1/36): adding to final database dump
+0003.960 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesusers.table.gz (2/36): adding to final database dump
+0003.961 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesusermeta.table.gz (3/36): adding to final database dump
+0003.965 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruescommentmeta.table.gz (4/36): adding to final database dump
+0003.966 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruescomments.table.gz (5/36): adding to final database dump
+0003.968 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueslinks.table.gz (6/36): adding to final database dump
+0003.969 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespostmeta.table.gz (7/36): adding to final database dump
+0004.025 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesposts.table.gz (8/36): adding to final database dump
+0004.061 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterm_relationships.table.gz (9/36): adding to final database dump
+0004.062 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterm_taxonomy.table.gz (10/36): adding to final database dump
+0004.064 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestermmeta.table.gz (11/36): adding to final database dump
+0004.065 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesterms.table.gz (12/36): adding to final database dump
+0004.067 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0004.068 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0004.069 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesyoast_seo_links.table.gz (15/36): adding to final database dump
+0004.071 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesyoast_seo_meta.table.gz (16/36): adding to final database dump
+0004.072 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruesdb7_forms.table.gz (17/36): adding to final database dump
+0004.078 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespodsrel.table.gz (18/36): adding to final database dump
+0004.079 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruespum_subscribers.table.gz (19/36): adding to final database dump
+0004.080 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_dictionary_en_us_es_es.table.gz (20/36): adding to final database dump
+0004.084 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_gettext_en_us.table.gz (21/36): adding to final database dump
+0004.100 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imaguruestrp_gettext_es_es.table.gz (22/36): adding to final database dump
+0004.116 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswc_download_log.table.gz (23/36): adding to final database dump
+0004.117 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswc_webhooks.table.gz (24/36): adding to final database dump
+0004.118 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_api_keys.table.gz (25/36): adding to final database dump
+0004.119 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_attribute_taxonomies.table.gz (26/36): adding to final database dump
+0004.120 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_downloadable_product_permissions.table.gz (27/36): adding to final database dump
+0004.121 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_log.table.gz (28/36): adding to final database dump
+0004.122 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_order_items.table.gz (29/36): adding to final database dump
+0004.124 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_payment_tokens.table.gz (30/36): adding to final database dump
+0004.125 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_sessions.table.gz (31/36): adding to final database dump
+0004.126 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zone_locations.table.gz (32/36): adding to final database dump
+0004.127 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zone_methods.table.gz (33/36): adding to final database dump
+0004.128 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_shipping_zones.table.gz (34/36): adding to final database dump
+0004.129 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_tax_rate_locations.table.gz (35/36): adding to final database dump
+0004.130 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db-table-imagurueswoocommerce_tax_rates.table.gz (36/36): adding to final database dump
+0004.132 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db.gz: finished writing out complete database file (608 KB)
+0004.156 (0) Total database tables backed up: 36 (backup_2019-02-11-1300_imagurues_e978eabf7e5c-db.gz, size: 627595, sha256)
+0004.160 (0) backup_2019-02-11-1300_imagurues_e978eabf7e5c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.161 (0) Saving backup history. Total backup size: 612.9 KB
+0004.163 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.165 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.166 (0) No remote despatch: user chose no remote backup service
+0004.166 (0) Recording as successfully uploaded: backup_2019-02-11-1300_imagurues_e978eabf7e5c-db.gz
+0004.170 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.171 (0) Number of backup sets in history: 1; groups (db): 1
+0004.172 (0) Examining (for databases) backup set with group_id=0, nonce=e978eabf7e5c, datestamp=1549879258 (Feb 11 2019 10:00:58)
+0004.172 (0) This backup set is the backup set just made, so will not be deleted.
+0004.172 (0) Number of backup sets in history: 1; groups (files): 1
+0004.173 (0) Examining (for files) backup set with nonce=e978eabf7e5c, datestamp=1549879258 (Feb 11 2019 10:00:58)
+0004.173 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.174 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0004.176 (0) Resume backup (e978eabf7e5c, 0): finish run
+0004.178 (0) Decremented the semaphore (d) by 1
+0004.179 (0) Semaphore (d) unlocked
+0004.179 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.182 (0) No email will/can be sent - the user has not configured an email address.
+0004.183 (0) The backup apparently succeeded and is now complete

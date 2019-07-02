@@ -1,0 +1,15 @@
+.prim-container {
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: calc(100% - 24px);
+}
+
+.secondary-container {
+	position: relative;
+	width: 1120px;
+	max-width: calc(100% - 24px);
+	margin: 0 auto;
+	padding: 0 15px;
+}

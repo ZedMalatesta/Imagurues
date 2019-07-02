@@ -1,0 +1,131 @@
+/*Variables
+//
+// Variable format should follow the --[element]-[property]-[orientation]-[size]-[variant] order. */
+
+:root {
+  /* Colors
+// ================================================== */
+
+  --color-brand-primary: #0057e4;
+  --color-brand-primary-dark: #4665bb;
+  --color-brand-primary-light: #fe2c00;
+
+  --color-brand-secondary: #8dc044;
+  --color-brand-secondary-dark: #023299;
+  --color-brand-secondary-light: #0453ff;
+
+  --color-white: #ffffff;
+
+  --color-grey-lighter: #ebebeb;
+  --color-grey-light: #9d9d9d;
+  --color-grey-lightest: #f5f5f5;
+  --color-grey: #484848;
+  --color-grey-dark: #1a0704;
+
+  --color-black: #000000;
+
+
+  /* Borders
+  // ================================================== */
+
+  --border-color: --color-grey-light;
+  --border-style: solid;
+
+  --border-width: 0.1em;
+  --border-width-sm: --border-width / 2;
+  --border-width-lg: --border-width * 2;
+
+
+  /* Border radius
+  // ================================================== */
+
+  --border-radius: 0;
+
+
+  /* Fonts
+  // ================================================== */
+
+  --font-family-sans-serif: arial, "Helvetica Neue", "Helvetica", sans-serif;
+  --font-family-os: "Open Sans", arial, "Helvetica Neue", "Helvetica", sans-serif;
+  --font-family-raleway: Raleway, arial, "Helvetica Neue", "Helvetica", sans-serif;
+  --line-height: 1.5;
+  --font-size: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xs: 0.75rem;
+
+  --selection-bg: rgba(0, 0, 0, 0.25);
+  --selection-color: inherit;
+
+
+  /* Spacing
+  // ================================================== */
+  /*
+  --spacing-horizontal: 1em; // 16px
+  --spacing-horizontal-lg: --spacing-horizontal * 2;
+  --spacing-horizontal-sm: --spacing-horizontal / 2;
+  --spacing-horizontal-xl: --spacing-horizontal * 4;
+  --spacing-horizontal-xs: --spacing-horizontal / 4;
+
+  --spacing-horizontal-fluid: 10%;
+  --spacing-horizontal-fluid-lg: --spacing-horizontal-fluid * 1.5;
+  --spacing-horizontal-fluid-sm: --spacing-horizontal-fluid / 1.5;
+
+  --spacing-horizontal-root: 5vw;
+
+  --spacing-vertical: 1em; // 16px
+  --spacing-vertical-lg: --spacing-vertical * 2;
+  --spacing-vertical-sm: --spacing-vertical / 2;
+  --spacing-vertical-xl: --spacing-vertical * 4;
+  --spacing-vertical-xs: --spacing-vertical / 4;
+
+  --spacing-vertical-fluid: 10%;
+  --spacing-vertical-fluid-lg: --spacing-vertical-fluid * 1.5;
+  --spacing-vertical-fluid-sm: --spacing-vertical-fluid / 1.5;
+
+  --spacing-vertical-root: 5vw;
+  */
+
+  /* Transitions
+  // ================================================== */
+
+  --transition-duration: 0.3s;
+  --transition-timing: ease-in-out;
+
+  /* Headings
+  ================================================== */
+
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --h4-font-size: 0.75rem;
+  --h5-font-size: 0.5rem;
+
+  --heading-color: var(--color-grey-dark);
+  --heading-font-family: var (--font-family-sanfr);
+  --heading-font-weight: bold;
+
+
+  /*
+  // Inputs
+  // ==================================================
+
+  --input-bg: --color-white;
+  --input-bg-disabled: --color-grey-lightest;
+
+  --input-border-color: --color-white;
+  --input-border-color-focus: --color-grey-light;
+  --input-border-color-hover: lighten(--color-grey-light, 5%);
+
+  --input-border-radius: --border-radius;
+
+  --input-box-shadow: none;
+
+  --input-color: --body-color;
+  --input-color-placeholder: --color-grey-dark;
+
+  --input-padding-horizontal: --spacing-horizontal-sm;
+  --input-padding-vertical: --spacing-vertical-sm;
+
+  */
+}

@@ -1,0 +1,20 @@
+@font-face {
+font-family: 'Rounded Mplus 1c';
+src: url('http://techminsk.com/fonts/Roundedmplus1c.woff') format('woff');
+font-style: normal;
+font-weight: 500;
+}
+.t199__logo img {
+    margin-top:1vh;
+}
+.always_red {
+    color:#da1e1e !important;
+    font-weight: 900;
+}
+a.t-active {
+    text-decoration: underline !important;
+    color: white !important;
+}
+.t199__is__active t-active {
+    color:black !important;
+}

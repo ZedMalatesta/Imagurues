@@ -1,0 +1,96 @@
+2019-05-12T01:08:35+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php on line 450
+
+2019-05-12T02:18:25+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+
+2019-05-12T02:18:45+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+
+2019-05-12T04:02:15+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+
+2019-05-12T08:41:12+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php on line 450
+
+2019-05-12T15:33:00+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+
+2019-05-12T16:23:57+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+
+2019-05-12T22:18:09+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=4734#!trpen#Uncaught Error: Call to undefined function qtrans_getLanguage() in /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php:450
+Stack trace:
+#0 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/course.php(86): tribe_get_recurrence_daynames()
+#1 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/single-event.php(25): include('/home/imagurues...')
+#2 /home/imagurues/public_html/wp-content/plugins/the-events-calendar/src/functions/template-tags/general.php(45): include('/home/imagurues...')
+#3 /home/imagurues/public_html/wp-content/themes/imaguru.by/tribe-events/default-template.php(425): tribe_get_view()
+#4 /home/imagurues/public_html/wp-includes/template-loader.php(77): include('/home/imagurues...')
+#5 /home/imagurues/public_html/wp-blog-header.php(19): require_once('/home/imagurues...')
+#6 /home/imagurues/public_html/index.php(17): require('/home/imagurues...')
+#7 {main}
+  thrown en /home/imagurues/public_html/wp-content/themes/imaguru.by/functions.php en la línea 450#!trpst#/trp-gettext#!trpen#
+

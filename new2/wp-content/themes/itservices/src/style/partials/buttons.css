@@ -1,0 +1,102 @@
+.btn {
+  padding: 6px 45px;
+  /*min-width: 220px;*/
+  background: transparent;
+  border: 2px solid var(--color-brand-primary);
+  font-family: var(--font-family-os);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  color: var(--color-brand-primary);
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    /*opacity: 0.8;*/
+  }
+
+  &--blue {
+    background-color: hsl(217,100%,55%);
+    border-color: hsl(217,100%,55%);
+    color: #fff;
+
+    &:hover {
+      background-color: hsl(217,100%,45%);
+      border-color: hsl(217,100%,45%);
+      opacity: 1;
+    }
+  }
+
+  &--blue-white {
+    color: var(--color-white);
+    background-color: var(--color-brand-primary);
+    border-color: var(--color-white);
+
+    &:hover {
+      color: var(--color-brand-primary);
+      background-color: var(--color-white);
+      opacity: 1;
+    }
+  }
+
+  &--white {
+    border-color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-brand-primary);
+  }
+
+  &--green {
+    background-color: var(--color-brand-secondary);
+    border-color: var(--color-brand-secondary);
+    color: var(--color-white);
+  }
+
+  &--sm {
+    font-size: 1.185rem;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  &--social {
+    padding: 5px 10px;
+    padding-left: 30px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 0;
+    margin-right: 15px;
+    text-transform: lowercase;
+    letter-spacing: initial;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px 50%;
+    color: var(--color-white);
+    min-width: auto;
+    margin-bottom: 5px;
+  }
+
+  &--facebook {
+    border-color: #4665bb;
+    background-color: #4665bb;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20.17 20.17'%3E%3Ctitle%3Efacebook_ic%3C/title%3E%3Cg id='Слой_2' data-name='Слой 2'%3E%3Cg id='Layer_1' data-name='Layer 1'%3E%3Cpath d='M20.17,10.11c0,3,0,5.93,0,8.89a1.12,1.12,0,0,1-.39.93.86.86,0,0,1-.6.23h-4c-.41,0-.43,0-.43-.46,0-1.71,0-3.43,0-5.14,0-.61,0-1.23,0-1.84s0-.63.65-.63h2c.4,0,.39,0,.41-.41,0-.69.08-1.37.1-2.06,0-.4,0-.41-.4-.41H15.32c-.53,0-.54,0-.54-.51s0-1.19,0-1.79a1.05,1.05,0,0,1,1.17-1.18c.47,0,.93,0,1.4,0s.44,0,.46-.42c0-.59.08-1.19.1-1.78,0-.41,0-.46-.45-.46a20.28,20.28,0,0,0-2.29,0,3.47,3.47,0,0,0-3.39,3.52c0,.73,0,1.45,0,2.18,0,.42,0,.43-.45.44H10c-.23,0-.34.08-.34.32q0,1.12,0,2.24c0,.24.1.33.33.33h1.23c.56,0,.56,0,.56.55q0,2,0,3.91c0,1,0,2.09,0,3.13,0,.47,0,.48-.46.48-3.39,0-6.78,0-10.17,0A1.18,1.18,0,0,1,0,19c0-.76,0-1.53,0-2.29Q0,9.15,0,1.54A4.2,4.2,0,0,1,0,1.1,1.13,1.13,0,0,1,1.09,0a3.24,3.24,0,0,1,.39,0H19.09a1,1,0,0,1,1.08,1.1c0,1,0,2.09,0,3.13Q20.17,7.17,20.17,10.11Z' fill='%23f9f9f9'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  &--vk {
+    border-color: #507299;
+    background-color: #507299;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 78.68 44.97'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eic_vk%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M46.5,20.68c.58,1.44,1.63,1.75,2.77.73A22.35,22.35,0,0,0,52.4,18,60.47,60.47,0,0,0,59.82,4.28a7.06,7.06,0,0,1,.39-.87,2.34,2.34,0,0,1,2.22-1.23c4.27,0,8.54-.08,12.81-.08a9.21,9.21,0,0,1,2.29.32A1.43,1.43,0,0,1,78.65,4a7.42,7.42,0,0,1-1,3.24,61.25,61.25,0,0,1-6.17,9.32Q69.09,19.77,66.7,23a6,6,0,0,0-.57,1,2.74,2.74,0,0,0,.29,3.1,39.55,39.55,0,0,0,2.91,3.09,62.15,62.15,0,0,1,7.15,7.55,26.19,26.19,0,0,1,1.71,2.67,4.43,4.43,0,0,1,.45,1.35,2,2,0,0,1-.93,2.11,5,5,0,0,1-2.77.83c-3.19.06-6.4,0-9.58.17-3.49.24-6.07-1.28-8.32-3.66-1.49-1.58-2.91-3.23-4.39-4.82A10.53,10.53,0,0,0,51.2,35.2c-1.67-1.24-3.18-.87-4.11,1a11.52,11.52,0,0,0-1,4.22c0,.52,0,1-.08,1.55a2.59,2.59,0,0,1-2.69,2.77c-3.58.06-7.18.24-10.71-.72a29.22,29.22,0,0,1-13.75-8.3,74.34,74.34,0,0,1-9.45-13A157.87,157.87,0,0,1,.4,5.33c-.92-2.07-.25-3.12,2-3.2,1.22,0,2.43,0,3.65,0L13.2,2a3.43,3.43,0,0,1,3.49,2.31,71.21,71.21,0,0,0,7.58,14,30.31,30.31,0,0,0,2.18,2.62,4.36,4.36,0,0,0,1,.78,1.64,1.64,0,0,0,2.66-.85,13.05,13.05,0,0,0,.71-3,40.41,40.41,0,0,0-.12-10.15,7.44,7.44,0,0,0-1-2.76,4.26,4.26,0,0,0-3-1.63c-.69-.15-.76-.3-.33-.89a5.06,5.06,0,0,1,3.51-2,42.19,42.19,0,0,1,12.64,0c2.69.42,3.43,1.3,3.56,4,.11,2.23,0,4.47,0,6.7C46,11.19,46.17,19.88,46.5,20.68Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  &--instagram {
+    border-color: #ed1c24;
+    background-color: #ed1c24;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20.17 20.17'%3E%3Ctitle%3Einsta_ic%3C/title%3E%3Cg id='Слой_2' data-name='Слой 2'%3E%3Cg id='Layer_1' data-name='Layer 1'%3E%3Cg id='instagramm'%3E%3Cpath d='M10.09,15.67a5.58,5.58,0,1,1,5.59-5.58,5.59,5.59,0,0,1-5.59,5.58m0-9.59a4,4,0,1,0,4,4,4,4,0,0,0-4-4' fill='%23fff'/%3E%3Cpath d='M14.55,20.17H5.63A5.63,5.63,0,0,1,0,14.55V5.63A5.63,5.63,0,0,1,5.63,0h8.92a5.63,5.63,0,0,1,5.63,5.63v8.92a5.63,5.63,0,0,1-5.63,5.63M5.63,1.58a4.05,4.05,0,0,0-4,4v8.92a4.05,4.05,0,0,0,4,4h8.92a4.05,4.05,0,0,0,4-4V5.63a4.05,4.05,0,0,0-4-4Z' fill='%23fff'/%3E%3Cpath d='M16.76,4.61a1.05,1.05,0,1,0-1.05,1.05,1.05,1.05,0,0,0,1.05-1.05' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}

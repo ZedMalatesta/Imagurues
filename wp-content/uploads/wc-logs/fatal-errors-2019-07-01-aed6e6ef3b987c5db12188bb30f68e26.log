@@ -1,0 +1,7 @@
+2019-07-01T12:58:22+00:00 CRITICAL Uncaught Error: Call to undefined function wp_is_recovery_mode() in /home/imagurues/public_html/wp-admin/admin-header.php:55
+Stack trace:
+#0 /home/imagurues/public_html/wp-admin/edit-form-advanced.php(393): require_once()
+#1 /home/imagurues/public_html/wp-admin/post.php(197): include('/home/imagurues...')
+#2 {main}
+  thrown in /home/imagurues/public_html/wp-admin/admin-header.php on line 55
+

@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Raleway;
+  src:
+  local("Ralewway"),
+  url("../fonts/Raleway/raleway-bold.woff2") format("woff2"),
+  url("../fonts/Raleway/raleway-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src:
+  local("Raleway"),
+  url("../fonts/Raleway/raleway-light.woff2") format("woff2"),
+  url("../fonts/Raleway/raleway-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src:
+  local("Raleway"),
+  url("../fonts/Raleway/raleway-extrabold.woff2") format("woff2"),
+  url("../fonts/Raleway/raleway-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: Raleway;
+  src:
+  local("Raleway"),
+  url("../fonts/Raleway/raleway-regular.woff2") format("woff2"),
+  url("../fonts/Raleway/raleway-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src:
+  local("Raleway"),
+  url("../fonts/Raleway/raleway-semibold.woff2") format("woff2"),
+  url("../fonts/Raleway/raleway-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+  local("Open Sans"),
+  url("../fonts/OpenSans/opensans-bold.woff2") format("woff2"),
+  url("../fonts/OpenSans/opensans-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+  local("Open Sans"),
+  url("../fonts/OpenSans/opensans-light.woff2") format("woff2"),
+  url("../fonts/OpenSans/opensans-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+  local("Open Sans"),
+  url("../fonts/OpenSans/opensans-extrabold.woff2") format("woff2"),
+  url("../fonts/OpenSans/opensans-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+  local("Open Sans"),
+  url("../fonts/OpenSans/opensans-regular.woff2") format("woff2"),
+  url("../fonts/OpenSans/opensans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+  local("Open Sans"),
+  url("../fonts/OpenSans/opensans-semibold.woff2") format("woff2"),
+  url("../fonts/OpenSans/opensans-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+

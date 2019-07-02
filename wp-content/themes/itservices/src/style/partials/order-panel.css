@@ -1,0 +1,117 @@
+.order-panel {
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 1.5rem;
+	padding: 1em 0;
+
+	z-index: 300;
+
+	box-shadow: 0 0 1px rgba(0,0,0,.1);
+	transform: translateY(100%);
+	transition: transform .2s;
+
+	&.visible {
+		transform: translateY(0);
+	}
+
+	& .prim-container {
+		display: flex;
+		position: static;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	& .text {
+		text-transform: uppercase;
+		margin-right: 15px;
+	}
+
+	& p {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	& .close {
+		position: absolute;
+		height: 10px;
+		width: 10px;
+		right: 10px;
+		top: 10px;
+		opacity: .3;
+
+		transition: opacity .2s;
+
+		&:hover {
+			opacity: .7;
+		}
+
+		cursor: pointer;
+
+		&:before,
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 2px;
+			width: 100%;
+			top: 50%;
+			left: 50%;
+			margin-top: -1px;
+			margin-left: -50%;
+			background-color: #555;
+		}
+
+		&:before {
+			transform: rotateZ(45deg);
+		}
+		&:after {
+			transform: rotateZ(-45deg);
+		}
+	}
+}
+
+
+@media only screen and (max-width: 920px) {
+
+	.order-panel {
+		font-size: 1.2rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.order-panel {
+		font-size: 1rem;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.order-panel {
+
+		& .prim-container {
+			justify-content: center;
+		}
+
+		& .text {
+			display: none;
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-height: 413px) {
+
+	.order-panel {
+		padding: 10px 0;
+	}
+
+}

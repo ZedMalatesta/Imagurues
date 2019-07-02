@@ -1,0 +1,41 @@
+.simple-text {
+  background-color: var(--color-brand-primary);
+  padding: 60px 0;
+  color: #fff;
+
+	& .prim-container {
+		width: 860px;
+	}
+
+  & h2 {
+  	color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  & .text-content {
+  	font-size: 1.2rem;
+  	color: #fff;
+
+    & p,
+    & ul,
+    & ol {
+      color: inherit;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .simple-text {
+
+    & .text-content {
+      font-size: 1rem;
+    }
+
+  }
+
+}
